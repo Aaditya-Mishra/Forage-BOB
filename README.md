@@ -1,5 +1,9 @@
 # Forage-BOB
-Project Members
-Sujal Garg (@sujalgarg17) - Team Lead
-Amarendra Upadhyay (@amarupa12) - Team Member 
-Aaditya Mishra (@) - Team Member
+
+
+### Project Members
+
+1. Sujal Garg (@sujalgarg17) - Team Lead
+2. Amarendra Upadhay  (@amarupa) - Team Member
+3. Aaditya Mishra (@Aaditya-Mishra) - Team Member
+
