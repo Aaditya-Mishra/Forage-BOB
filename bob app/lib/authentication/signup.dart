@@ -48,7 +48,6 @@ class signupPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   ElevatedButton(
-                    
                     onPressed: (() {}),
                     child: Row(
                       children: [
@@ -61,7 +60,8 @@ class signupPage extends StatelessWidget {
                         ),
                         Text(
                           "Record voice",
-                          style: TextStyle(fontSize: 16, color: Color(0xff6B6B6B)),
+                          style:
+                              TextStyle(fontSize: 16, color: Color(0xff6B6B6B)),
                         ),
                       ],
                     ),
@@ -88,7 +88,8 @@ class signupPage extends StatelessWidget {
                         ),
                         Text(
                           "Click photo",
-                          style: TextStyle(fontSize: 16, color: Color(0xff6B6B6B)),
+                          style:
+                              TextStyle(fontSize: 16, color: Color(0xff6B6B6B)),
                         ),
                       ],
                     ),
@@ -109,7 +110,7 @@ class signupPage extends StatelessWidget {
               ),
               SizedBox(
                 width: size.width,
-                height: size.height*0.08,
+                height: size.height * 0.08,
                 child: ElevatedButton(
                     onPressed: (() {}),
                     style: ElevatedButton.styleFrom(
@@ -131,8 +132,7 @@ class signupPage extends StatelessWidget {
                     onPressed: (() {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(
-                            builder: (context) => loginPage()),
+                        MaterialPageRoute(builder: (context) => loginPage()),
                       );
                     }),
                     child: Text("Login"),

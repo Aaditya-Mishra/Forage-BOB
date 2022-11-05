@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "97758661684",
+    "project_id": "bob-hackathon-8a7ec",
+    "storage_bucket": "bob-hackathon-8a7ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97758661684:android:64c033db45289c8688ce61",
+        "android_client_info": {
+          "package_name": "com.example.bob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97758661684-1qvddv8ojh4mfrtvgcr8vtmfbogatstg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwmW7WmlVOFd7G2PQLa_JZ_E4s-MrABQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97758661684-1qvddv8ojh4mfrtvgcr8vtmfbogatstg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "97758661684-ur16glrqlv9mj80m2v1fr59vj7brrmqh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bob"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
