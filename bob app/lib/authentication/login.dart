@@ -1,10 +1,8 @@
 import 'package:bob/authentication/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
 import 'components/divider.dart';
 import 'components/logininputs.dart';
-import 'components/textfield.dart';
 import 'dialogbox.dart';
 
 class loginPage extends StatelessWidget {
@@ -19,7 +17,7 @@ class loginPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: SafeArea(
             child: Padding(
-          padding: EdgeInsets.all(24.0),
+          padding: const EdgeInsets.all(24.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
@@ -30,7 +28,7 @@ class loginPage extends StatelessWidget {
               SizedBox(
                 height: size.height * 0.03,
               ),
-              Text(
+              const Text(
                 "Login",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -49,7 +47,7 @@ class loginPage extends StatelessWidget {
                 children: [
                   TextButton(
                     onPressed: (() {}),
-                    child: Text("Forgot password?"),
+                    child: const Text("Forgot password?"),
                   ),
                   ElevatedButton(
                     onPressed: (() {}),
@@ -58,7 +56,7 @@ class loginPage extends StatelessWidget {
                       style: TextStyle(fontSize: 16),
                     ),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Color(0xff162B75),
+                      backgroundColor: const Color(0xff162B75),
                       padding: EdgeInsets.symmetric(
                           horizontal: size.width * 0.1, vertical: 20.0),
                       shape: RoundedRectangleBorder(
@@ -80,7 +78,7 @@ class loginPage extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: (() {
                     showDialog(
-                        context: context, builder: (context) => faceSuccess());
+                        context: context, builder: (context) => VoiceTaker());
                   }),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xff162B75),
@@ -93,7 +91,11 @@ class loginPage extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SvgPicture.asset("assets/failed.svg", width: 3, height: 3,),
+                      SvgPicture.asset(
+                        "assets/failed.svg",
+                        width: 3,
+                        height: 3,
+                      ),
                       SizedBox(
                         width: 20,
                       ),

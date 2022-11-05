@@ -1,11 +1,14 @@
-
-import 'package:bob/authentication/signup.dart';
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'authentication/login.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main()  {
-  runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
+  // final cameras = await availableCameras();
+  // final firstCamera = cameras.first;
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -13,14 +16,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: loginPage(),
     );
   }
 }
-
-
-
-
-
